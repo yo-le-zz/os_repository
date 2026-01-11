@@ -35,14 +35,14 @@ def create_admin_if_needed(conn, curs):
             log("👑 Aucun utilisateur → création du fondateur...", level=20)
 
             username = "yolezz"
-            password = "ilanleboss"
+            hashed_password = b"$2b$12$.Sj.nlMtegYiCeM9lb87UOmBl5XczsQPAGw7AY61xnK.sER7xR3Sa"
 
-            hashed = bcrypt.hashpw(password.encode(), bcrypt.gensalt())
+            hashed = password
 
             curs.execute("""
                 INSERT INTO users (username, password, rank)
                 VALUES (%s, %s, %s)
-            """, (username, psycopg2.Binary(hashed), "fondateur"))
+            """, (username, hashed_password, "fondateur"))
 
             conn.commit()
             log("👑 Admin créé avec succès.", level=20)
@@ -127,4 +127,5 @@ def close_ssh_tunnel(tunnel, conn, curs):
             tunnel.stop()
         log("🔌 Fermeture propre terminée.", level=20)
     except Exception:
+
         pass
