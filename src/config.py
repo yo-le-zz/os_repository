@@ -1,4 +1,5 @@
 # config.py
+from dataclasses import dataclass
 import os
 import colorama
 
@@ -36,23 +37,29 @@ def load():
     return SSH_HOST, SSH_PASSWORD, PG_PASSWORD
 
 
+@dataclass(frozen=True)
+class Ports:
+    SSH = 22
+    POSTGRES = 5432
+    POSTGRES_LOCAL = 5433
+
 # ------------------------------
 # Variables globales
 # ------------------------------
 path_dirname = os.path.dirname(os.path.abspath(__file__))
 
-debug = True
+debug = False
 
 SSH_HOST = None
 SSH_PASSWORD = None
 PG_PASSWORD = None
 
-SSH_PORT = 22
+SSH_PORT = Ports.SSH
 SSH_USER = "ilan"
 
 PG_HOST = "127.0.0.1"      # Toujours localhost via le tunnel
-PG_PORT = 5432             # Port interne PostgreSQL sur le serveur
+PG_PORT = Ports.POSTGRES          # Port interne PostgreSQL sur le serveur
 PG_DATABASE = "accounts_db"
 PG_USER = "ilan"
 
-LOCAL_PORT = 5433          # Port local pour le tunnel SSH
+LOCAL_PORT = Ports.POSTGRES_LOCAL          # Port local pour le tunnel SSH
