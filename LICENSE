@@ -1,24 +1,30 @@
-This is free and unencumbered software released into the public domain.
+Copyright © 2026 yo-le-zz
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+All rights reserved.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+This software (referred to herein as “the Software”) is licensed, not sold.
+By using, copying, or modifying the Software, you accept and agree to be bound by the terms of this License.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+1. Definitions
+   a. “Software” refers to all source code, documentation, examples, scripts, and related materials distributed hereunder.
+   b. “You” and “Your” refer to any individual or legal entity who obtains a copy of the Software.
 
-For more information, please refer to <https://unlicense.org>
+2. License Grant
+   Subject to the terms below, the author grants you a worldwide, non-exclusive, royalty-free, revocable license to:
+   • Use the Software for personal, educational, research, or other **non-commercial purposes only**.
+   • Modify and share modified versions publicly under the same restrictions.
+
+3. Restrictions
+   You MAY NOT:
+   • Use the Software for any **commercial purposes**, including but not limited to selling, sublicensing, charging for access, or bundling with a paid service/product.
+   • Distribute the Software (original or modified) in a manner that **derives direct monetary value**.
+   • Remove, alter, or obscure this License, copyright notices, or attribution.
+
+4. Attribution
+   You must retain all copyright notices and this License text in any redistributed copies of the Software (original or modified).
+
+5. Warranty Disclaimer
+   The Software is provided “AS IS”, without warranty of any kind. The author shall not be liable for any damages arising from use of the Software.
+
+6. Termination
+   If you breach any term of this License, your rights under this License are automatically terminated without notice.
