@@ -1,0 +1,1 @@
+pyinstaller --onefile --clean --icon="path\to\icon\app.ico" --distpath "path\to\dist\folder\dist" --name="OS_repo" --add-data "secure.bin;." main.py
